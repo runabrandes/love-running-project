@@ -23,7 +23,7 @@ header {
 main {
     background-color: lightblue;
     /*Make main element take up any surplus space*/
-flex: 1 0 auto;
+    flex: 1 0 auto;
 }
 
 /*Footer*/
