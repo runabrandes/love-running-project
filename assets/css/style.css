@@ -92,6 +92,9 @@ main {
     /*Make main element take up any surplus space*/
     flex: 1 0 auto;
     margin-top:47px;
+    /*Sign Up*/
+        display: flex;
+        flex-direction: column;
 }
 
 /*Hero Section*/
@@ -220,6 +223,53 @@ line-height: 0;
     color: #3a3a3a;
 }
 
+/*Sign Up*/
+#signup {
+    background-image: url("../images/signup-image.webp");
+    background-size: cover;
+    background-position: 75%;
+    flex-grow: 1;
+    padding: 20px 10% 0 10%;
+    flex-grow: 1;
+}
+
+#signup > h2 {
+    color: #fafafa;
+    margin-bottom: 20px;
+}
+
+#signup-form {
+    color: #ffffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    border: 1px solid #fafafa;
+    border-radius: 2px;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    padding: 0 5px;
+}
+
+.radio-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.join-button {
+border-radius: 2px;
+background-color: #454b1b;
+color: #fafafa;
+font-size: 100%;
+margin-top: 20px;
+padding: 15px 32px;
+}
+
 /*Media query: large or landscape phones (576px and up)*/
 @media screen and (min-width:576px) {
     #photos {
@@ -257,10 +307,12 @@ line-height: 0;
 
     /*Main Content*/
 
-   main{
+   main {
     /*Push main content down to accommodate larger header*/
     margin-top:79px;
    }
+   
+
 
    /*Hero*/
    #cover-text {
