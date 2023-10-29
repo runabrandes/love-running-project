@@ -312,7 +312,27 @@ padding: 15px 32px;
     margin-top:79px;
    }
    
+   /*Signup Form*/
+   #signup {
+    background-position: center;
+    position: relative;
+   }
 
+   #signup-form {
+    position: absolute;
+    max-width: 400px;
+    top: 150px;
+    left: 10%;
+   }
+
+   .join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+   }
+
+   #text-input:hover {
+    border-color: #f16c6b;
+   }
 
    /*Hero*/
    #cover-text {
